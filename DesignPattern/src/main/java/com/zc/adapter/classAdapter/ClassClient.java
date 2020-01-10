@@ -2,6 +2,8 @@ package com.zc.adapter.classAdapter;
 
 /**
  * 类适配器 客户端
+ *
+ * 不兼容结构的协调——适配器模式
  */
 class ClassClient {
     public static void main(String[] args) {

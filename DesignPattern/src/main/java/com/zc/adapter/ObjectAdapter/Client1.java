@@ -6,6 +6,8 @@ import com.zc.adapter.classAdapter.TypeCImpl;
 
 /**
  * 客户端  对象适配器
+ *
+ * 不兼容结构的协调——适配器模式
  */
 public class Client1 {
 

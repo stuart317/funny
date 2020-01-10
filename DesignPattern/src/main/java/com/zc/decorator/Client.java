@@ -2,6 +2,8 @@ package com.zc.decorator;
 
 /**
  * 客户端测试
+ *
+ * 扩展系统功能——装饰模式
  */
 public class Client {
     public static void main(String[] args) {

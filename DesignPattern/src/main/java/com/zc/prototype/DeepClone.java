@@ -80,6 +80,8 @@ class WeeklyLog2 implements Serializable{
 
 /**
  * 客户端
+ *
+ * 对象的克隆——原型模式
  */
 class Client2{
     public static void main(String[] args) throws Exception {
