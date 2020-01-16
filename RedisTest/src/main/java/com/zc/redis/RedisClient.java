@@ -25,7 +25,11 @@ public class RedisClient {
 	//单例模式：静态枚举内部类
 	public static enum Singleton {
 		INSTANCE;
-		private static RedisClient redisClient = new RedisClient();
+		public RedisClient redisClient;
+		//JVM会保证此方法绝对只调用一次
+		private Singleton(){
+			redisClient = new RedisClient();
+		}
 		private RedisClient getInstance() {
 			return redisClient;
 		}
